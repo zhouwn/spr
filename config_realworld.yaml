@@ -1,0 +1,377 @@
+
+DNCEmails:
+  seed: 40233139
+  num_feats: 8
+  n_role: 13
+  layer_spec: 16
+  n_layers: 2
+  dropout_rate: 0.1
+  num_hidden: 32
+  activation: 'relu'
+  gamma: 1
+  learning_rate: 0.01
+  weight_decay: 0.0001
+  patience: 24
+  order: 3
+  k: 10
+  alpha: 0.5
+  dprate: 0.1
+  knn_dim: 40
+  Init: 'NPPR'
+
+
+
+
+FilmTrust:
+  seed: 40233139
+  num_feats: 8
+  n_role: 5
+  activation: 'relu'
+  gamma: 0.7237959372272174
+  learning_rate: 0.0111757732871795
+  weight_decay: 1.4702271242591487e-05
+  patience: 24
+  sim_num_hidden: 12
+  sim_order: 3
+  sim_k: 16
+  sim_alpha: 0.1814378980923047
+  sim_dprate: 0.15417608598569635
+  knn_dim: 40
+  sim_Init: 'NPPR'
+  role_num_hidden: 16
+  role_k: 13
+  role_alpha: 0.7432573685773806
+  role_dprate: 0.3859906536064329
+  role_Init: 'NPPR'
+
+
+NetScience:
+  seed: 40233139
+  num_feats: 8
+  n_role: 3
+  activation: 'relu'
+  gamma: 0.17641357291641144
+  learning_rate: 0.00122538527269873
+  weight_decay: 0.001021767386692641
+  patience: 24
+  sim_num_hidden: 24
+  sim_order: 3
+  sim_k: 6
+  sim_alpha: 0.7270856159491937
+  sim_dprate: 0.12033817169542048
+  knn_dim: 40
+  sim_Init: 'NPPR'
+  role_num_hidden: 32
+  role_k: 14
+  role_alpha: 0.8529627412135928
+  role_dprate: 0.35361127491515976
+  role_Init: 'NPPR'
+
+Figeys:
+  seed: 40233139
+  num_feats: 8
+  n_role: 12
+  activation: 'relu'
+  gamma: 0.7329516100689181
+  learning_rate: 0.0455260172674336
+  weight_decay: 2.170771377578267e-05
+  patience: 24
+  sim_num_hidden: 12
+  sim_order: 3
+  sim_k: 15
+  sim_alpha: 0.299285976689246
+  sim_dprate: 0.17890032912838352
+  knn_dim: 40
+  sim_Init: 'PPR'
+  role_num_hidden: 12
+  role_k: 10
+  role_alpha: 0.46527933723706144
+  role_dprate: 0.15966099817578913
+  role_Init: 'Random'
+
+
+
+Crime:
+  seed: 40233139
+  num_feats: 8
+  n_role: 8
+  activation: 'relu'
+  gamma: 0.4975903096597485
+  learning_rate: 0.00298602790314311
+  weight_decay: 0.0006414992253615959
+  patience: 24
+  sim_num_hidden: 24
+  sim_order: 3
+  sim_k: 11
+  sim_alpha: 0.6
+  sim_dprate: 0.1
+  knn_dim: 40
+  sim_Init: 'Random'
+  role_num_hidden: 24
+  role_k: 8
+  role_alpha: 1.0
+  role_dprate: 0.7
+  role_Init: 'NPPR'
+
+RoviraVirgili:
+  seed: 40233139
+  num_feats: 8
+  n_role: 4
+  activation: 'relu'
+  gamma: 0.8234504595124224
+  learning_rate: 0.0281816048003051
+  weight_decay: 0.0001862450188121926
+  patience: 24
+  sim_num_hidden: 12
+  sim_order: 3
+  sim_k: 13
+  sim_alpha: 0.7
+  sim_dprate: 0.1
+  knn_dim: 40
+  sim_Init: 'NPPR'
+  role_num_hidden: 24
+  role_k: 16
+  role_alpha: 0.2
+  role_dprate: 0.6
+  role_Init: 'Random'
+
+EconPoli:
+  seed: 40233139
+  num_feats: 8
+  n_role: 13
+  activation: 'relu'
+  gamma: 0.474874376352798
+  learning_rate: 0.0908881517087941
+  weight_decay: 0.0254909196303943
+  patience: 24
+  sim_num_hidden: 24
+  sim_order: 3
+  sim_k: 8
+  sim_alpha: 0.1
+  sim_dprate: 0.1
+  knn_dim: 40
+  sim_Init: 'PPR'
+  role_num_hidden: 8
+  role_k: 11
+  role_alpha: 0.7
+  role_dprate: 0.1
+  role_Init: 'Random'
+
+KKI:
+  seed: 40233139
+  num_feats: 8
+  n_role: 11
+  activation: 'relu'
+  gamma: 0.32833533496962
+  learning_rate: 0.00265017928528569
+  weight_decay: 0.00137402524927395
+  patience: 24
+  sim_num_hidden: 24
+  sim_order: 3
+  sim_k: 10
+  sim_alpha: 0.868350286106694
+  sim_dprate: 0.101677704143168
+  knn_dim: 40
+  sim_Init: 'PPR'
+  role_num_hidden: 16
+  role_k: 10
+  role_alpha: 0.600150164162175
+  role_dprate: 0.350992840320478
+  role_Init: 'Random'
+
+PPI:
+  seed: 40233139
+  num_feats: 8
+  n_role: 4
+  activation: 'relu'
+  gamma: 0.591764551398346
+  learning_rate: 0.0509359801383091
+  weight_decay: 0.0185113020579177
+  patience: 24
+  sim_num_hidden: 24
+  sim_order: 3
+  sim_k: 11
+  sim_alpha: 0.5
+  sim_dprate: 0.1
+  knn_dim: 40
+  sim_Init: 'Random'
+  role_num_hidden: 12
+  role_k: 6
+  role_alpha: 0.1
+  role_dprate: 0.9
+  role_Init: 'PPR'
+
+0-demo:
+  seed: 40233139
+  num_feats: 8
+  n_role: 2
+  activation: 'relu'
+  gamma: 0.4975903096597485
+  learning_rate: 0.002986027903143112
+  weight_decay: 0.0006414992253615959
+  patience: 24
+  sim_num_hidden: 24
+  sim_order: 3
+  sim_k: 11
+  sim_alpha: 0.6
+  sim_dprate: 0.1
+  knn_dim: 40
+  sim_Init: 'Random'
+  role_num_hidden: 24
+  role_k: 8
+  role_alpha: 1.0
+  role_dprate: 0.7
+  role_Init: 'NPPR'
+
+
+karate:
+  seed: 40233139
+  num_feats: 8
+  n_role: 7
+  activation: 'relu'
+  gamma: 0.4975903096597485
+  learning_rate: 0.002986027903143112
+  weight_decay: 0.0006414992253615959
+  patience: 24
+  sim_num_hidden: 24
+  sim_order: 2
+  sim_k: 11
+  sim_alpha: 0.6
+  sim_dprate: 0.1
+  knn_dim: 40
+  sim_Init: 'Random'
+  role_num_hidden: 24
+  role_k: 8
+  role_alpha: 1.0
+  role_dprate: 0.7
+  role_Init: 'NPPR'
+
+DIMACS10:
+  seed: 40233139
+  num_feats: 4
+  n_role: 8
+  activation: 'relu'
+  gamma: 0.32833533496962
+  learning_rate: 0.00265017928528569
+  weight_decay: 0.00137402524927395
+  patience: 24
+  sim_num_hidden: 24
+  sim_order: 3
+  sim_k: 10
+  sim_alpha: 0.868350286106694
+  sim_dprate: 0.101677704143168
+  knn_dim: 40
+  sim_Init: 'PPR'
+  role_num_hidden: 16
+  role_k: 10
+  role_alpha: 0.600150164162175
+  role_dprate: 0.350992840320478
+  role_Init: 'Random'
+
+twitter-follows:
+  seed: 40233139
+  num_feats: 4
+  n_role: 8
+  activation: 'relu'
+  gamma: 0.32833533496962
+  learning_rate: 0.00265017928528569
+  weight_decay: 0.00137402524927395
+  patience: 24
+  sim_num_hidden: 24
+  sim_order: 3
+  sim_k: 10
+  sim_alpha: 0.868350286106694
+  sim_dprate: 0.101677704143168
+  knn_dim: 40
+  sim_Init: 'PPR'
+  role_num_hidden: 16
+  role_k: 10
+  role_alpha: 0.600150164162175
+  role_dprate: 0.350992840320478
+  role_Init: 'Random'
+
+Github_Contest:
+  seed: 40233139
+  num_feats: 4
+  n_role: 8
+  activation: 'relu'
+  gamma: 0.32833533496962
+  learning_rate: 0.00265017928528569
+  weight_decay: 0.00137402524927395
+  patience: 24
+  sim_num_hidden: 24
+  sim_order: 3
+  sim_k: 10
+  sim_alpha: 0.868350286106694
+  sim_dprate: 0.101677704143168
+  knn_dim: 40
+  sim_Init: 'PPR'
+  role_num_hidden: 16
+  role_k: 10
+  role_alpha: 0.600150164162175
+  role_dprate: 0.350992840320478
+  role_Init: 'Random'
+
+TwitterFollows:
+  seed: 40233139
+  num_feats: 4
+  n_role: 8
+  activation: 'relu'
+  gamma: 0.32833533496962
+  learning_rate: 0.00265017928528569
+  weight_decay: 0.00137402524927395
+  patience: 24
+  sim_num_hidden: 24
+  sim_order: 3
+  sim_k: 10
+  sim_alpha: 0.868350286106694
+  sim_dprate: 0.101677704143168
+  knn_dim: 40
+  sim_Init: 'PPR'
+  role_num_hidden: 16
+  role_k: 10
+  role_alpha: 0.600150164162175
+  role_dprate: 0.350992840320478
+  role_Init: 'Random'
+
+citeseer:
+  seed: 40233139
+  num_feats: 4
+  n_role: 8
+  activation: 'relu'
+  gamma: 0.32833533496962
+  learning_rate: 0.00265017928528569
+  weight_decay: 0.00137402524927395
+  patience: 24
+  sim_num_hidden: 24
+  sim_order: 3
+  sim_k: 10
+  sim_alpha: 0.868350286106694
+  sim_dprate: 0.101677704143168
+  knn_dim: 40
+  sim_Init: 'PPR'
+  role_num_hidden: 16
+  role_k: 10
+  role_alpha: 0.600150164162175
+  role_dprate: 0.350992840320478
+  role_Init: 'Random'
+
+Douban:
+  seed: 40233139
+  num_feats: 8
+  n_role: 13
+  layer_spec: 16
+  n_layers: 2
+  dropout_rate: 0.1
+  num_hidden: 32
+  activation: 'relu'
+  gamma: 1
+  learning_rate: 0.01
+  weight_decay: 0.0001
+  patience: 24
+  order: 3
+  k: 10
+  alpha: 0.5
+  dprate: 0.1
+  knn_dim: 40
+  Init: 'NPPR'
